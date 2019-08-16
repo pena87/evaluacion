@@ -1,0 +1,439 @@
+
+  #imgFondo{
+   
+    background-image: url(../img/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: beige ;
+}
+#logo{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 5px;
+    left : 10px;
+
+    }
+    #tituloIniciar{
+        position:relative;
+        top:5em;
+        width:800px;
+        height:150px;
+        
+        }
+        #btnIniciar {
+            position:relative;
+            top:10em;
+            width:20em;
+            display:block; 
+            } 
+        #tituloInstrucciones {
+            position:relative;
+            top:5em;
+            width:400px;
+            height:80px;
+       }
+       #video {
+        position:relative;
+        top:9em;
+        width:800px;
+        height:500px;
+        display:block; 
+           }
+    
+       #btnJugar{
+        position:relative;
+        top:10em;
+        width:20em;
+        display:block; 
+       }
+       #tituloBarEscolar{
+        position:relative;
+       
+        width:700px;
+        height:150px;
+       }
+       #BarEscolar{
+        position:relative;
+    
+       
+        width:500px;
+        height:600px;
+        
+       }
+       #draggable {
+           position:fixed;
+        width: 100px;
+        height: 100px;
+        background: #ccc;
+        z-index: 1;
+      }
+      #droppable {
+        position: absolute;
+        left: 250px;
+        top: 0;
+        width: 125px;
+        height: 125px;
+        background: #999;
+        color: #fff;
+        padding: 5px;
+      }
+
+
+
+
+
+
+
+       /* Puzzle */
+#contenedorPiezas{
+    /* background: #e7931a; */
+    width: 200px;
+    height: 300px;
+    /* float: left; */
+    /* margin-left: 10px; */
+    box-shadow: 0px 0px 10px  2px #d0eb6a;
+}
+       #lonchera{
+       
+        /* top:9em; */
+        width:300px;
+        height:210px;
+        display:block;  
+       }
+
+/* Contenedor del puzzle*/
+#contenedorPuzzle {
+    margin: 40px auto;
+    width: 450px;
+    /* background: rgba(20,20,20,0.8); */
+    /* box-shadow: 0px 0px 10px  2px #777; */
+    color: #ccc;
+    padding: 20px;
+    /* border-radius: 10px; */
+    overflow: hidden;
+}
+#resultado {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+
+
+
+#puzzle {
+    background: #d0eb6a;
+    width: 200px;
+    height: 300px;
+    float: right;
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px  2px #e7931a;
+}
+.contenedorPieza {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#contenedorPuzzle img {
+    float: left;
+    padding: 1px;
+    width: 98px;
+    height: 98px;
+}
+
+
+      
+       #tituloPuntaje{
+        position:relative;
+        top:8em;
+        width:400px;
+        height:80px;
+       }
+.misfrutas img{  
+     margin-right: 1%;
+    margin-left: 39px;
+ }      
+      
+#miprimerdiv{
+   
+    width: 66%;
+}
+#misegundodiv{
+    
+    width: 60%;
+   }
+
+ .draggable  {
+width: 33px;
+    height: 37px;
+   
+ }
+ 
+
+ .leftFrutas{
+position: relative;
+left: 36%;
+
+ }
+
+
+ #contenFrutas{
+       background-image: url(../img/bar.png);
+    background-size: 434px 379px;
+    background-repeat: no-repeat;
+       height: 321px;
+    width: auto;
+      position: relative;
+    
+ }
+ .lonchera img{
+    height: 50px;
+    background-position: center;
+    z-index: 1;
+    margin: 0;
+    position: relative;
+    left: 107px;
+    top: 49px;
+    margin-left: 6px;
+  }
+ .lonchera div{
+    height : 120px;
+    width:100%;
+ } 
+ .contenedor3{
+    margin-top: 10%;
+ }
+.contenedor{
+
+  
+  
+}
+
+
+
+
+
+ #lonchera1{
+    background-image: url(../img/loncherac.jpg);
+   
+    /* background: #d0eb6a; */
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+<<<<<<< HEAD
+ 
+    width: 25%;
+=======
+    position: relative;
+    width: 32%;
+>>>>>>> 0227a5f694357ebb0f913feaf08605376f161cf6
+   margin-bottom: 82px;
+    height: 39vh;
+    left: 28%;
+ }
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+      .lonchera{
+          width: 50% !important;
+<<<<<<< HEAD
+      background-size: 100px 100px !important;
+          
+       
+=======
+      background-size: 50px 50px !important;
+>>>>>>> 0227a5f694357ebb0f913feaf08605376f161cf6
+          
+      }
+  
+  }
+  
+  
+  
+
+
+
+@media only screen and (max-width: 768px) {
+#contenFrutas{
+     width: 90% !important;
+    background-size:800px 600px !important;
+ background-repeat: no-repeat;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.img-fluid{
+     width: 50% !important;
+  
+    
+  
+}
+    
+    .video-stream html5-main-video{
+     width: 50% !important;
+
+}
+    
+
+
+    
+    #puntajeletra{
+      width: 90% !important;
+  
+}
+    
+        #logo{
+      width:40% !important;
+  
+}
+    
+         #tituloBarEscolar{
+      width:80% !important;
+             
+  
+}
+    
+    
+    #misegundodiv{
+<<<<<<< HEAD
+      width: 40% !important;
+             margin-left: -20px;
+        
+              
+}
+    
+    #miprimerdiv{
+         width: 90% !important;
+        
+   
+    }
+    
+    .draggable{
+  position: absolute;
+      top: 115px;
+        left: 216px;
+    margin: auto;
+        
+   
+    }
+.draggable:first-child{
+  position: absolute;
+
+    left: 52px;
+    margin: auto;
+        
+   
+    }
+        
+.draggable:nth-child(2){
+  position: absolute;
+ 
+        left: 112px;
+    margin: auto;
+        
+   
+    }
+.draggable:nth-child(3){
+  position: absolute;
+  
+left: 171px;
+    margin: auto;
+        
+   
+    }
+
+.draggable:nth-child(4){
+  position: absolute;
+   
+    left: 229px;
+    margin: auto;
+        
+   
+    }
+
+
+.draggable:nth-child(5){
+  position: absolute;
+     left: 280px;
+    margin: auto;
+        
+   
+    }
+
+}
+
+
+  
+=======
+      width: 80% !important;
+             margin-left: -20px;
+              
+}
+    
+    #miprimerdiv{
+         width: 90% !important;
+        margin-left: -32px;
+   
+   
+    }
+    
+    .draggable{
+  position: absolute;
+      top: 115px;
+    left: 32px;
+    margin: auto;
+        
+   
+    }
+.draggable:first-child{
+  position: absolute;
+
+    left: 52px;
+    margin: auto;
+        
+   
+    }
+        
+.draggable:nth-child(2){
+  position: absolute;
+ 
+    left: 136px;
+    margin: auto;
+        
+   
+    }
+.draggable:nth-child(3){
+  position: absolute;
+  
+    left: 186px;
+    margin: auto;
+        
+   
+    }
+
+.draggable:nth-child(4){
+  position: absolute;
+   
+    left: 260px;
+    margin: auto;
+        
+   
+    }
+
+
+.draggable:nth-child(5){
+  position: absolute;
+   
+    left: 330px;
+    margin: auto;
+        
+   
+    }
+
+}
+>>>>>>> 0227a5f694357ebb0f913feaf08605376f161cf6
+
